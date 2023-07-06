@@ -4,7 +4,7 @@ class EmptyView: UIView {
     
     lazy var label: UILabel = {
         let label = UILabel()
-        label.text = "No data Found"
+        label.text = "No data found"
         label.font = .systemFont(ofSize: 22, weight: .semibold)
         label.textAlignment = .center
         
